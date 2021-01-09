@@ -1,13 +1,35 @@
 body {
+  /* background-image: ("https://curatech.mx/assets/images/home/doctor/img-sample-doctor@2x.png"); */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(135, 87, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 87, 202, 1) 11%,
+    rgba(33, 212, 230, 1) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+.app {
+  text-align: center;
+}
+
+.items {
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.dividir {
+  color: red;
+  height: 5px;
+}
+
+.entry-data {
+  width: 30%;
 }
