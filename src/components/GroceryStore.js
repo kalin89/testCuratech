@@ -118,7 +118,6 @@ export const GroceryStore = () => {
               {value}
             </span>
           ))}
-          {/* <h3 style={{ fontWeight: "bold" }}>{items}</h3> */}
         </Col>
         <Col span={12} offset={6}>
           <Button type="primary" size="middle" onClick={lookForPairs}>

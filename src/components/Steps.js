@@ -10,7 +10,6 @@ export const Steps = () => {
   const validateSteps = (e) => {
     const { value } = e.target;
     const reg = /^([DdUu])*$/;
-    const valor1 = reg.test(value);
     if (reg.test(value) || value === "") {
       setStepInput(value.toUpperCase());
       setenableButton(value.length < 2);

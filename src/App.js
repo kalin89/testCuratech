@@ -1,6 +1,7 @@
 import { GroceryStore } from "./components/GroceryStore";
 import { Divider } from "antd";
 import { Steps } from "./components/Steps";
+import { Multiple } from "./components/Multiple";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <GroceryStore />
       <Divider />
       <Steps />
+      <Divider />
+      <Multiple />
     </div>
   );
 }
