@@ -52,7 +52,7 @@ export const Steps = () => {
         <Col span={12} offset={6}>
           <Input
             size="middle"
-            style={{ width: "30%" }}
+            style={{ width: "50%" }}
             onChange={validateSteps}
             value={stepInput}
             placeholder="Agregar pasos"

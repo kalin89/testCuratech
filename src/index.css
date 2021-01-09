@@ -38,3 +38,7 @@ li {
   list-style: none;
   padding: 2px 2px;
 }
+
+.title {
+  padding-top: 20px;
+}

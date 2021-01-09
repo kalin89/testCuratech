@@ -95,7 +95,7 @@ export const GroceryStore = () => {
           <Input
             placeholder="Agregar color"
             size="middle"
-            style={{ width: "30%" }}
+            style={{ width: "50%" }}
             onChange={(e) => validateValue(e)}
             value={inputColor}
             ref={inputRef}
